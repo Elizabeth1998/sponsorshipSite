@@ -28,6 +28,7 @@ html{
     display: block;
     border-radius: 0.25rem;
     margin-top: 5%;
+    background-color: #92D4E7;
 }
 
 #tier1:hover {
@@ -42,6 +43,7 @@ html{
     margin-top: 5%;
     margin-left: 5%;
     margin-right: 5%;
+    background-color: #F3EA5F;
     
 }
 
@@ -54,7 +56,7 @@ html{
 #tier3{
     display: block;
     border-radius: 0.25rem;
-    
+    background-color: #70C86B;
     margin-top: 5%;
 }
 
@@ -77,26 +79,6 @@ img{
     width: 200px;
 }
 
-#colorTier1{
-    background-color: #92D4E7;
-    border-top-left-radius: 0.25rem;
-    border-top-right-radius: 0.25rem;
-    height: 200px;
-}
-
-#colorTier2{
-    background-color: #F3EA5F;
-    border-top-left-radius: 0.25rem;
-    border-top-right-radius: 0.25rem;
-    height: 200px;
-}
-
-#colorTier3{
-    background-color: #70C86B;
-    border-top-left-radius: 0.25rem;
-    border-top-right-radius: 0.25rem;
-    height: 200px;
-}
 
 button{
     margin: 5%;
@@ -115,14 +97,31 @@ button{
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
-#context{
-    background-color: #fefefe;
-    margin: 10% auto; /* 15% from the top and centered */
+#contextTier1{
+    background-color: #92D4E7;
+    margin: 9% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
     width: 20%; /* Could be more or less, depending on screen size */
-    height: 50%;
-    text-align: center;
+    height: 60%;
+}
+
+#contextTier2{
+    background-color: #F3EA5F;
+    margin: 9% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 20%; /* Could be more or less, depending on screen size */
+    height: 60%;
+}
+
+#contextTier3{
+    background-color: #70C86B;
+    margin: 9% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 20%; /* Could be more or less, depending on screen size */
+    height: 60%;
 }
 
 .close {
