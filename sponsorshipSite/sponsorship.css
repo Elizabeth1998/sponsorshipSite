@@ -1,0 +1,140 @@
+html{
+    background-image: linear-gradient(to right,#D75DDE , #F47732);
+    text-align: center;
+    justify-items: center;
+}
+
+
+#container{
+    display: flex;
+    flex-direction: row;
+    width:70%;
+    margin-left: 15%;
+}
+
+#tier1, #tier2, #tier3{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: center;
+    font-family:'Pacifico', cursive;
+    color: black;
+    height: 15%;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    background-color: white;
+}
+
+#tier1{
+    display: block;
+    border-radius: 0.25rem;
+    margin-top: 5%;
+}
+
+#tier1:hover {
+    transform: scale(1.1);
+    filter: brightness(120%);
+}
+
+
+#tier2{
+    display: block;
+    border-radius: 0.25rem;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+#tier2:hover {
+    transform: scale(1.1);
+    filter: brightness(120%);
+}
+
+
+#tier3{
+    display: block;
+    border-radius: 0.25rem;
+    
+    margin-top: 5%;
+}
+
+#tier3:hover {
+    transform: scale(1.1);
+    filter: brightness(120%);
+}
+
+p{
+    margin: 0;
+}
+
+h1{
+    margin-top: 5%;
+}
+
+
+img{
+    height: 200px;
+    width: 200px;
+}
+
+#colorTier1{
+    background-color: #92D4E7;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    height: 200px;
+}
+
+#colorTier2{
+    background-color: #F3EA5F;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    height: 200px;
+}
+
+#colorTier3{
+    background-color: #70C86B;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    height: 200px;
+}
+
+button{
+    margin: 5%;
+}
+
+#detailsTier1, #detailsTier2, #detailsTier3{
+    border-radius: 0.25rem;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+#context{
+    background-color: #fefefe;
+    margin: 10% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 20%; /* Could be more or less, depending on screen size */
+    height: 50%;
+    text-align: center;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+  
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

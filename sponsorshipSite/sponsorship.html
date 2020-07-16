@@ -1,0 +1,137 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="sponsorship.css">
+        <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+        <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    </head>
+
+    <h1> KHE Sponsorship </h1>
+    <p> Below are the follow three tiers for Kent Hack Enough 2020! We look forward to working with you for the 9th year of KHE! </p>
+
+    <div id="container">
+        <div id="tier1">
+            <div id="colorTier1">
+                 <img src="images/cassetteTape.png">
+            </div>
+           
+            <h2> Cassette Tape</h2>
+            <p> $250 </p>
+            <button onclick="tier1()">Learn more!</button>
+        </div>
+
+        <div id="tier2">
+            <div id="colorTier2">
+               <img src="images/sunglasses.png"> 
+            </div>
+            
+            <h2> Sunglasses </h2>
+            <p> $500 </p>
+            <button onclick="tier2()">Learn more!</button>
+        </div>
+
+        <div id="tier3">
+            <div id="colorTier3">
+                <img src="images/keyboard.png">
+           </div>
+            
+            <h2> Keyboard </h2>
+            <p> $1000 </p>
+            <button onclick="tier3()">Learn more!</button>
+        </div>
+
+        <div id="detailsTier1" style="display:none">
+            <div id="context">
+                <h1> Cassette Tape </h1>
+                <p> 1. Ability to send mentors</p>
+                <p> 2. Thanked at opening ceremonies</p>
+                <p> 3. Judge at final hacks </p>
+                <p> 4. Logo on website </p>
+                <p> 5. Resume book after event </p>
+                <button class="close" onclick="buttonClose1()"> Close</button>
+            </div>
+            
+        </div>
+
+        <div id="detailsTier2" style="display:none">
+            <div id="context">
+                <h1> Sunglasses </h1>
+                <p> 1. Ability to send mentors</p>
+                <p> 2. Thanked at opening ceremonies</p>
+                <p> 3. Judge at final hacks </p>
+                <p> 4. Run a workshop </p>
+                <p> 5. Logo on website </p>
+                <p> 6. Brand mention in post before the event</p>
+                <p> 7. Resume book after event </p>
+                <p> 8. Resume book before event </p> 
+                <button class="close" onclick="buttonClose2()"> Close</button>
+            </div>
+            
+        </div>
+
+        <div id="detailsTier3" style="display:none">
+            <div id="context">
+                <h1> Keyboard </h1>
+                <p> 1. Ability to send mentors</p>
+                <p> 2. Thanked at opening ceremonies</p>
+                <p> 3. Judge at final hacks </p>
+                <p> 4. Run a workshop </p>
+                <p> 5. Keynote speaker</p>
+                <p> 6. Logo on website </p>
+                <p> 7. Brand mention in post before the event</p>
+                <p> 8. Brand spotlight</p>
+                <p> 9. Resume book after event </p>
+                <p> 10. Resume book before event </p>
+                <p> 11. One-on-one recruitment with hackers </p>
+                <button class="close" onclick="buttonClose3()"> Close</button>
+            </div>
+            
+        </div>
+    </div>
+
+</html>
+
+<script>
+    function tier1(){
+        var x = document.getElementById("detailsTier1");
+        if (x.style.display === "none") {
+        x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+
+    function buttonClose1() {
+        var x = document.getElementById("detailsTier1");
+        x.style.display = "none";
+    }
+
+    function tier2(){
+        var x = document.getElementById("detailsTier2");
+        if (x.style.display === "none") {
+        x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+
+    function buttonClose2() {
+        var x = document.getElementById("detailsTier2");
+        x.style.display = "none";
+    }
+
+    function tier3(){
+        var x = document.getElementById("detailsTier3");
+        if (x.style.display === "none") {
+        x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+
+    function buttonClose3() {
+        var x = document.getElementById("detailsTier3");
+        x.style.display = "none";
+    }
+
+
+</script>
