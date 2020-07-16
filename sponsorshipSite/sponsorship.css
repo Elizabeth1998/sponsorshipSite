@@ -82,6 +82,17 @@ img{
 
 button{
     margin: 5%;
+    background-color: rgb(207, 43, 194);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: 2px solid rgb(207, 43, 194);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: .3s;
+}
+
+button:hover{
+    opacity: 1
 }
 
 #detailsTier1, #detailsTier2, #detailsTier3{
