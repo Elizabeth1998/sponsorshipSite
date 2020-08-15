@@ -9,5 +9,5 @@ jobs:
     - uses: actions/first-interaction@v1
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-        issue-message: 'Solve this issue! To help get you ready listen to this playlist to help with 80s vibes https://open.spotify.com/playlist/37i9dQZF1DXb57FjYWz00c'' first issue'
-        pr-message: 'Get ready for a blast to the past! To help get you ready listen to this playlist to help with 80s vibes https://open.spotify.com/playlist/37i9dQZF1DXb57FjYWz00c'' first pr'
+        issue-message: 'Solve this issue! To help get you ready listen to this playlist to help with 80s vibes https://open.spotify.com/playlist/37i9dQZF1DXb57FjYWz00c'
+        pr-message: 'Get ready for a blast to the past! To help get you ready listen to this playlist to help with 80s vibes https://open.spotify.com/playlist/37i9dQZF1DXb57FjYWz00c'
